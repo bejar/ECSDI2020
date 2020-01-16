@@ -19,7 +19,7 @@ Client
 
 import socket
 import argparse
-from FlaskServer import shutdown_server
+from AgentUtil.FlaskServer import shutdown_server
 import requests
 from flask import Flask, request, render_template, url_for, redirect
 
