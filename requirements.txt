@@ -1,0 +1,4 @@
+rdflib
+flask
+SPARQLWrapper
+semantics3
