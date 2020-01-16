@@ -8,7 +8,7 @@ Semantics2
 
     Ejemplo de uso de la API de Semantics3 (www.semantics3.com)
 
-    Semantics3 es un sevicio web que provee informacion de productos a traves de una API REST
+    Semantics3 es un servicio web que provee informacion de productos a traves de una API REST
     Se puede utilizar la libreria requests para hacer las queries, pero es mas sencillo utilizar la
     API python que proveen para no tener que lidiar con el sistema de autorizacion
 
