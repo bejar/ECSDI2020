@@ -11,7 +11,6 @@ Webservice flask con tres entradas
 @author: javier
 """
 
-from __future__ import print_function
 from multiprocessing import Process
 from flask import Flask, request, render_template
 from time import sleep
