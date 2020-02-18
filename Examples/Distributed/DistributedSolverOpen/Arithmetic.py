@@ -91,7 +91,7 @@ def solver(saddress, probid, prob):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--open', help="Define si el servidor esta abierto al exterior o no", action='store_true',
-                        default=True)
+                        default=False)
     parser.add_argument('--port', type=int, help="Puerto de comunicacion del agente")
     parser.add_argument('--dir', default=None, help="Direccion del servicio de directorio")
 
