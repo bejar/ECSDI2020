@@ -38,6 +38,7 @@ if __name__ == '__main__':
     r = requests.get(DATAKICK_ENDPOINT,
                      params={'query':'oil'
                              })
+    print(r)
 
     dic = r.json()
 

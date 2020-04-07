@@ -34,6 +34,7 @@ Semantics2
 
 from semantics3 import Products
 from AgentUtil.APIKeys import SEM3KEY, SEM3SECRET
+import pprint
 
 __author__ = 'bejar'
 
@@ -49,4 +50,4 @@ if __name__ == '__main__':
     results = sem3.get_products()
 
     # View the results of the request
-    print(results['results'])
+    pprint.pprint(results['results'])
