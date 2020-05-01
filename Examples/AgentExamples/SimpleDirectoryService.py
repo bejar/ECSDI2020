@@ -91,13 +91,13 @@ def register():
     """
 
     def process_register():
-        # Si la hay extraemos el nombre del agente (FOAF.Name), el URI del agente
+        # Si la hay extraemos el nombre del agente (FOAF.name), el URI del agente
         # su direccion y su tipo
 
         logger.info('Peticion de registro')
 
         agn_add = gm.value(subject=content, predicate=DSO.Address)
-        agn_name = gm.value(subject=content, predicate=FOAF.Name)
+        agn_name = gm.value(subject=content, predicate=FOAF.name)
         agn_uri = gm.value(subject=content, predicate=DSO.Uri)
         agn_type = gm.value(subject=content, predicate=DSO.AgentType)
 

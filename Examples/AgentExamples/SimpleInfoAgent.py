@@ -110,7 +110,7 @@ def register_message():
     reg_obj = agn[InfoAgent.name + '-Register']
     gmess.add((reg_obj, RDF.type, DSO.Register))
     gmess.add((reg_obj, DSO.Uri, InfoAgent.uri))
-    gmess.add((reg_obj, FOAF.Name, Literal(InfoAgent.name)))
+    gmess.add((reg_obj, FOAF.name, Literal(InfoAgent.name)))
     gmess.add((reg_obj, DSO.Address, Literal(InfoAgent.address)))
     gmess.add((reg_obj, DSO.AgentType, DSO.HotelsAgent))
 
