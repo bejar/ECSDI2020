@@ -25,11 +25,12 @@ from flask import Flask, request, render_template
 from rdflib import Graph, RDF, Namespace, RDFS
 from rdflib.namespace import FOAF
 
-from AgentUtil.OntoNamespaces import ACL, DSO
+from AgentUtil.ACL import ACL
 from AgentUtil.FlaskServer import shutdown_server
 from AgentUtil.Agent import Agent
 from AgentUtil.ACLMessages import build_message, get_message_properties
 from AgentUtil.Logging import config_logger
+from AgentUtil.DSO import DSO
 
 __author__ = 'javier'
 

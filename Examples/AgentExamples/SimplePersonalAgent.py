@@ -21,7 +21,8 @@ from rdflib import Graph, Namespace
 from rdflib.namespace import FOAF, RDF
 import requests
 
-from AgentUtil.OntoNamespaces import ACL, DSO
+from AgentUtil.ACL import ACL
+from AgentUtil.DSO import DSO
 from AgentUtil.FlaskServer import shutdown_server
 from AgentUtil.ACLMessages import build_message, send_message
 from AgentUtil.Agent import Agent
